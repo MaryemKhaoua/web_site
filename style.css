@@ -1,0 +1,136 @@
+/* Styles for the custom header */
+.custom-header {
+    background-color: #098fe8;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.custom-header .custom-header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-header .custom-logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.custom-header .custom-menu-button {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+/* Styles for the custom hero section */
+.custom-hero {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.custom-hero .custom-hero-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.custom-hero .custom-hero-title {
+    font-size: 36px;
+    color: #333;
+}
+
+.custom-hero .custom-hero-description {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Styles for the custom buttons */
+.custom-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.custom-primary-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.custom-secondary-btn {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Styles for the custom album section */
+.custom-album {
+    padding: 40px 0;
+    text-align: center;
+
+}
+.custom-album .image
+{
+    
+}
+.custom-album .custom-album-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles for the custom cards */
+.custom-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.custom-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-card .custom-card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.custom-card .custom-card-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Styles for the custom footer */
+.custom-footer {
+    background-color: #053b5f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.custom-footer .custom-footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-footer .custom-footer-text{
+    font-size: 14px;
+}
+
+.custom-footer .custom-footer-link
+{
+    color: #91e3e8;
+    text-decoration: none;
+}
