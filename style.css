@@ -1,11 +1,11 @@
 /* Styles for the custom header */
 .custom-header {
-    background-color: #098fe8;
-    color: #fff;
+    background-color: #d3acd3;
+    color: #2e5667;
     padding: 10px 0;
     text-align: center;
-}
 
+}
 .custom-header .custom-header-inner {
     max-width: 1200px;
     margin: 0 auto;
@@ -15,7 +15,7 @@
 }
 
 .custom-header .custom-logo {
-    font-size: 24px;
+    font-size: 30px;
     color: #fff;
     text-decoration: none;
 }
@@ -55,11 +55,16 @@
     border: none;
     cursor: pointer;
     border-radius: 4px;
+    
+
 }
 
 .custom-primary-btn {
-    background-color: #007bff;
+    background-color: #4f7fb1;
     color: #fff;
+    left: 10px;
+    bottom: 10px;
+    text-align: left;
 }
 
 .custom-secondary-btn {
@@ -69,13 +74,15 @@
 
 /* Styles for the custom album section */
 .custom-album {
-    padding: 40px 0;
+    padding: 40px ;
     text-align: center;
 
 }
 .custom-album .image
 {
-    
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
 }
 .custom-album .custom-album-inner {
     max-width: 1200px;
