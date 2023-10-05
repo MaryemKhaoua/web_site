@@ -1,9 +1,14 @@
+.custom-body
+{
+    margin: 0%;
+}
 /* Styles for the custom header */
 .custom-header {
-    background-color: #d3acd3;
+    background-color: #99ccee;
     color: #2e5667;
     padding: 10px 0;
     text-align: center;
+    
 
 }
 .custom-header .custom-header-inner {
@@ -12,18 +17,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
-
+.custom-log
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.custom-header .logo
+{
+    max-width: 150px;
+    position:relative;
+   
+}
 .custom-header .custom-logo {
-    font-size: 30px;
-    color: #fff;
+    font-size: 35px;
+    color: #074763;
     text-decoration: none;
+   
 }
 
-.custom-header .custom-menu-button {
-    background: none;
-    border: none;
-    color: #fff;
+.custom-header .custom-menu-button 
+{
+  width: 35px;
+  height: 5px;
+  background-color: rgb(0, 0, 0);
+  margin: 6px;
+  flex-direction: column;
 }
 
 /* Styles for the custom hero section */
@@ -65,6 +86,7 @@
     left: 10px;
     bottom: 10px;
     text-align: left;
+    justify-content: space-between;
 }
 
 .custom-secondary-btn {
@@ -121,8 +143,8 @@
 
 /* Styles for the custom footer */
 .custom-footer {
-    background-color: #053b5f;
-    color: #fff;
+    background-color: #99ccee;
+    color: #180524;
     padding: 20px 0;
     text-align: center;
 }
@@ -138,6 +160,6 @@
 
 .custom-footer .custom-footer-link
 {
-    color: #91e3e8;
+    color: #0d02b0;
     text-decoration: none;
 }
